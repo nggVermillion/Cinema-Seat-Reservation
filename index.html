@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seat Reservation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <label id="pickMovie" for="id_select">Pick a movie</label>
+        <select name="" id="id_select" >
+            <option value="1" id="movie1"> Avengers: Endgame (15CHF)</option>
+            <option value="2" id="movie2">Guardians of the Galaxy (18CHF) </option>
+            <option value="3" id="movie3">Let Her Kill You (12CHF)</option>
+        </select>
+        <div class="seat-options">
+            <span id="na" class="dot"></span>
+            <p class="description">N/A</p>
+            <span id="selected" class="dot"></span>
+            <p>Selected</p>
+            <span id="reserved" class="dot"></span>
+            <p id="reserved-text">Reserved</p>
+        </div>
+        <div class="screen">
+        </div>
+        <div class="seats">
+            <div class="column1">
+                <span id="1" class="seat"></span>
+                <span id="2" class="seat"></span>
+                <span id="3" class="seat"></span>
+                <span id="4" class="seat"></span>
+                <span id="5" class="seat"></span>
+                <span id="6" class="seat"></span>
+                <span id="7" class="seat"></span>
+                <span id="8" class="seat"></span>
+                <span id="9" class="seat"></span>
+                <span id="10" class="seat"></span>
+                <span id="11" class="seat"></span>
+                <span id="12" class="seat"></span>
+            </div>
+            <div class="column2">
+                <span id="13" class="seat"></span>
+                <span id="14" class="seat"></span>
+                <span id="15" class="seat"></span>
+                <span id="16" class="seat"></span>
+                <span id="17" class="seat"></span>
+                <span id="18" class="seat"></span>
+                <span id="19" class="seat"></span>
+                <span id="20" class="seat"></span>
+                <span id="21" class="seat"></span>
+                <span id="22" class="seat"></span>
+                <span id="23" class="seat"></span>
+                <span id="24" class="seat"></span>
+                <span id="25" class="seat"></span>
+                <span id="26" class="seat"></span>
+                <span id="27" class="seat"></span>
+                <span id="28" class="seat"></span>
+                <span id="29" class="seat"></span>
+                <span id="30" class="seat"></span>
+                <span id="31" class="seat"></span>
+                <span id="32" class="seat"></span>
+                <span id="33" class="seat"></span>
+                <span id="34" class="seat"></span>
+                <span id="35" class="seat"></span>
+                <span id="36" class="seat"></span>
+            </div>
+            <div class="column1">
+                <span id="37" class="seat"></span>
+                <span id="38" class="seat"></span>
+                <span id="39" class="seat"></span>
+                <span id="40" class="seat"></span>
+                <span id="41" class="seat"></span>
+                <span id="42" class="seat"></span>
+                <span id="43" class="seat"></span>
+                <span id="44" class="seat"></span>
+                <span id="45" class="seat"></span>
+                <span id="46" class="seat"></span>
+                <span id="47" class="seat"></span>
+                <span id="48" class="seat"></span>
+            </div>
+        </div>
+        <p class="endMessage">You have selected<p id="amountOfSeats">0</p>seats for<p id="amountToPay">0</p>CHF!</p>
+    </div>
+</body>
+<script src="app.js"></script>
+</html>
